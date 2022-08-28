@@ -1,0 +1,37 @@
+.projects {
+    margin-bottom: 20px;
+}
+
+.carousel.slide {
+    padding: 20px;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%), 0 3px 3px rgb(0 0 0 / 15%);
+}
+
+.d-block.w-100 {
+    border-radius: 5px;
+    height: 652.5px;
+    object-fit: scale-down;
+}
+
+.feature-caption {
+    color:rgb(100, 100, 100);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.text-link {
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
+
+.text-link:hover {
+    color:rgb(33, 37, 41);
+}

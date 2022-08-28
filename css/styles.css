@@ -1,0 +1,142 @@
+body {
+    font-family: 'Rubik', 'Arial';
+}
+
+h1 {
+  font-size: 64px;
+}
+@media only screen and (max-width: 800px), only screen and (max-height: 640px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 36px;
+}
+@media only screen and (max-width: 800px), only screen and (max-height: 640px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+    font-size: 18px; 
+}
+@media only screen and (max-width: 800px), only screen and (max-height: 640px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+a {
+    color: rgb(0, 90, 60);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 60, 40);
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(0, 60, 40);
+}
+
+.navbar-nav > li > a:hover {
+    color: rgb(0, 60, 40);
+}
+
+.nav-link {
+    margin-right: 10px;
+    color: rgb(0, 90, 60);
+    font-size: 20px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    font-weight: bold;
+}
+
+.navbar-nav .dropdown-menu a:active{
+    color: #1e2125;
+    background-color: #e9ecef;
+}
+
+ @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ 
+        display: none; 
+    }
+	.navbar .nav-item:hover .dropdown-menu{ 
+        display: block; 
+    }
+	.navbar .nav-item .dropdown-menu{ 
+        margin-top: 0; 
+    }
+}	
+
+.content {
+    background-color: white;
+    width: 100%;
+}
+
+.content .container-fluid {
+    background-color: white;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+}
+
+.footer-content {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 40px; 
+}
+
+.col-12.col-md-3.footer-start {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.col-12.col-md-6.footer-logos {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.col-12.col-md-6.footer-logos a:hover {
+    color: rgb(0, 60, 40);
+}
+
+.col-12.col-md-3.footer-end {
+    color: rgb(0, 90, 60);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.col-12.col-md-3.footer-end a:hover{
+    color: rgb(0, 60, 40);
+    text-decoration: underline;
+}

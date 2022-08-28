@@ -1,0 +1,44 @@
+.feature {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.feature-picture {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%), 0 3px 3px rgb(0 0 0 / 25%);
+    margin-bottom: 20px;
+}
+
+.feature-caption {
+    color:rgb(100, 100, 100);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.feature-content {
+    padding: 20px;
+    padding-top: 0px;
+}
+@media only screen and (max-width: 992px) {
+    .feature-content {
+        padding: 0px;
+        margin-top: 20px;
+    }
+}
+
+.where, .when, .why {
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.text-link {
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
+
+.text-link:hover {
+    color:rgb(33, 37, 41);
+}

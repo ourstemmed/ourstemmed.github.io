@@ -1,0 +1,8 @@
+.join-link {
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
+
+.join-link:hover {
+    color:rgb(33, 37, 41);
+}

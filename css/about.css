@@ -1,0 +1,32 @@
+strong {
+    color: rgb(0, 60, 40)
+}
+
+.row.about {
+    display: flex;
+    text-align: center;
+}
+
+.about-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-abstract {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    margin-bottom: 20px;
+}
+
+.values, .vision, .team {
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.team-pictures {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%), 0 3px 3px rgb(0 0 0 / 25%);
+}
